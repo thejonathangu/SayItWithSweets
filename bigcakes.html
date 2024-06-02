@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Say It With Sweets Website</title>
+  <link rel="stylesheet" href="static/styles.css">
+  <script defer src="static/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+</head>
+<body>
+  <header>
+      <div class="image">
+        <a href="index.html"><img src="logo.png" alt="Logo"></a>
+      </div>
+      <div class="title">
+        <h1>Say It With Sweets</h1>
+      </div>
+      <hr class="line">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="bigcakes.html">Platters & Large Cakes</a></li>
+        <li>
+          <a href="cakes.html">Cakes</a>
+          <div class="dropdown">
+            <ul>
+              <li><a href="cakes.html">Popular Cakes</a></li>
+              <li><a href="cakes.html">Cakes for Kids</a></li>
+              <li><a href="cakes.html">Cupcakes</a></li>
+              <li><a href="cakes.html">Custom Cakes</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+            <a href="cookies.html">Cookies</a>
+            <div class="dropdown">
+                <ul>
+                  <li><a href="cookies.html">Popular Cookies</a></li>
+                  <li><a href="cookies.html">Cookies for Kids</a></li>
+                  <li><a href="cookies.html">Cookie Cakes</a></li>
+                  <li><a href="cookies.html">Custom Cookies</a></li>
+                </ul>
+              </div>
+            </li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!--START EDITING HERE-->
+    <div class = "slideshow-title">
+      <h2>Bouquets!</h2>
+    </div>
+    <div class="bouquetslideshow-container">
+      <div class="mySlides fade">
+        <img src="bouquets/bouquet.jpg" alt="bou1">
+      </div>
+      <div class="mySlides fade">
+        <img src="bouquets/bouquet7.jpg" alt="bou2">
+      </div>
+      <div class="mySlides fade">
+        <img src="bouquets/bouquet2.jpg" alt="bou3">
+      </div>
+      <div class="mySlides fade">
+        <img src="bouquets/bouquet3.jpg" alt="bou4">
+      </div>
+      <div class="mySlides fade">
+        <img src="bouquets/bouquet4.jpg" alt="bou5">
+      </div>
+      <div class="mySlides fade">
+        <img src="bouquets/bouquet5.jpg" alt="bou6">
+      </div>
+      <div class="mySlides fade">
+        <img src="bouquets/bouquet6.jpg" alt="bou7">
+      </div>
+
+      <a class="prevbouquet" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="nextbouquet" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class ="bigcakesheader">
+      <h1>Big Cakes</h1>
+    </div>
+    <div class ="plattersheader">
+      <h1>Platters</h1>
+    </div>
+    <div class="bigcakesandplatters">
+      <img src="bigcakes/bigcakes1.jpg" alt="cake1" class="bigcake">
+      <img src="platters/platter1.jpg" alt="platter1" class="platter">
+    </div>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Price of Bouquet</a></li>
+        <li><a href="#tabs-2">Price of Big Cakes</a></li>
+        <li><a href="#tabs-3">Price of Cookie Platters</a></li>
+      </ul>
+      <div id="tabs-1">
+        <p>Small Bouquet: $15</p>
+        <p>Medium Bouquet: $25</p>
+        <p>Large Bouquet: $35</p>
+      </div>
+      <div id="tabs-2">
+        <p>Small size (serves 5-7 adults): $30</p>
+        <p>Medium size (serves 8-10 adults): $40</p>
+        <p>Party size (serves 15-20 adults): $60</p>
+      </div>
+      <div id="tabs-3">
+        <p>30 cookies: $30</p>
+        <p>40 cookies: $38</p>
+        <p>50 cookies: $45</p>
+      </div>
+    </div>
+    
+    <!--END EDITING HERE-->
+    <nav>
+      <ul class="footer-all">
+          <li>
+              <p>HOURS:</p>
+              <p>Monday-Friday: 10:00 AM - 3:30 PM</p>
+              <p>Saturday & Sunday: By Appointment Only</p>
+          </li>
+      </ul>
+      <ul class="footer-nav">
+        <li></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bigcakes.html">Platters & Large Cakes</a></li>
+        <li><a href="cakes.html">Cakes</a></li>
+        <li><a href="cookies.html">Cookies</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  </main>
+
+  <footer>
+    <div class="additional-info">
+        <p>Say It With Sweets | 1307 Pleasant Valley Blvd. Altoona PA 16602 US | +1(814)-937-1564</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/say.it.with.sweets/" target="_blank"><img src="facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/sayitwithsweets11/" target="_blank"><img src="instagram.png" alt="instagram"></a>
+            <a href="https://www.yelp.com/biz/say-it-with-sweets-altoona" target="_blank"><img src="yelp.png" alt="yelp"></a>
+        </div>
+    </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
